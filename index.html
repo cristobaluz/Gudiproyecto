@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website - Shopping Cart</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="#" class="logo">Biblioteca</a>
+            
+        <section>
+            <button id="logout" class="boton">Salir</button>
+        </section>
+            <!-- Cart-Icon -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!-- Cart -->
+            <div class="cart">
+                <h2 class="cart-title">TU CARRITO</h2>
+                <!-- Content -->
+                <div class="cart-content">
+
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy Button -->
+                <button type="button" class="btn-buy">Comprar Ahora</button>
+                <!-- Cart Close -->
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+        </div>
+    </header>
+    <!-- Shop -->
+    <section class="shop container">
+        <h2 class="section-title">Compra tus libros</h2>
+        <!-- Content -->
+        <div class="shop-content">
+            <!-- Box 1 -->
+            <div class="product-box">
+                <img src="img/libro 1.jpg" alt="" class="product-img">
+                <h2 class="product-title">El gran libro de Android</h2>
+                <h3>Pablo Herrarte</h3>
+                <h3>Mexico</h3>
+                <span class="price">$125</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="product-box">
+                <img src="img/libro 44.jpg" alt="" class="product-img">
+                <h2 class="product-title">CCNA</h2>
+                <h3>Sebastian J</h3>
+                <h3>España</h3>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 3 -->
+            <div class="product-box">
+                <img src="img/libro 3.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ingnieria Inversa</h2>
+                <h3>Pablo Duarte</h3>
+                <h3>Mexico</h3>
+                <span class="price">$275</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 4 -->
+            <div class="product-box">
+                <img src="img/libro 4.jpg" alt="" class="product-img">
+                <h2 class="product-title">big data</h2>
+                <h3>Luis Von</h3>
+                <h3>Guatemala</h3>
+                <span class="price">$375</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 5 -->
+            <div class="product-box">
+                <img src="img/libro 5.jpg" alt="" class="product-img">
+                <h2 class="product-title">Circuitos digitales</h2>
+                <h3>Donald Knuth</h3>
+                <h3>Reino unido</h3>
+                <span class="price">$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 6 -->
+            <div class="product-box">
+                <img src="img/libro 6.jpg" alt="" class="product-img">
+                <h2 class="product-title">CIRCUITOS ELÉCTRICOS</h2>
+                <h3>DENNIS RITCHIE</h3>
+                <h3>BELGICA</h3>
+                <span class="price">$500</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 7 -->
+            <div class="product-box">
+                <img src="img/libro 7.jpg" alt="" class="product-img">
+                <h2 class="product-title">TIC EN LA EDUCACIÓN</h2>
+                <h3>STEVE WOZNIAK</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$70</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- Box 8 -->
+            <div class="product-box">
+                <img src="img/libro 8.jpg" alt="" class="product-img">
+                <h2 class="product-title">ARDUINO DE CERO A EXPERTO</h2>
+                <h3>RICHARD STALLMAN</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$80</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 9.jpg" alt="" class="product-img">
+                <h2 class="product-title">SERVICIO TÉCNICO</h2>
+                <h3>TIM BERNERS</h3>
+                <h3>GRAN BRETAÑA</h3>
+                <span class="price">$90</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 10.jpg" alt="" class="product-img">
+                <h2 class="product-title">POSICIONAMIENTO WEB</h2>
+                <h3>GRACE MURRAY</h3>
+                <h3>SUIZA</h3>
+                <span class="price">$650</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 11.jpg" alt="" class="product-img">
+                <h2 class="product-title">RASPBERRY PI 3</h2>
+                <h3>JOHN VON NEUMANN</h3>
+                <h3>HUNGRIA</h3>
+                <span class="price">$175</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 12.jpg" alt="" class="product-img">
+                <h2 class="product-title">MYSQL 5.7</h2>
+                <h3>ALAN TURING</h3>
+                <h3>INGLATERRA</h3>
+                <span class="price">$280</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 13.jpg" alt="" class="product-img">
+                <h2 class="product-title">NODE JS</h2>
+                <h3>PAUL E</h3>
+                <h3>GRAN BRETAÑA</h3>
+                <span class="price">$400</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 14.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROGRAMA TU ARDUINO</h2>
+                <h3>BJARNE STROUSTRUP</h3>
+                <h3>REINO UNIDO</h3>
+                <span class="price">$980</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 15.jpg" alt="" class="product-img">
+                <h2 class="product-title">PYTHON PASO A PASO</h2>
+                <h3>LINUS TORVALDS</h3>
+                <h3>TURQUIA</h3>
+                <span class="price">$325</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 16.jpg" alt="" class="product-img">
+                <h2 class="product-title">PHYTON 3 CURSO PRACTICO</h2>
+                <h3>SERGIO VILLATORO</h3>
+                <h3>BRASIL</h3>
+                <span class="price">$140</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 17.jpg" alt="" class="product-img">
+                <h2 class="product-title">ODOO 11</h2>
+                <h3>KONRAD ZUSE</h3>
+                <h3>RUSIA</h3>
+                <span class="price">$355</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 18.jpg" alt="" class="product-img">
+                <h2 class="product-title">ELECTRÓNICA 1</h2>
+                <h3>MARIO ZAVALETA</h3>
+                <h3>ARGENTINA</h3>
+                <span class="price">$79</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 19.jpg" alt="" class="product-img">
+                <h2 class="product-title">ELECTRÓNICA 2</h2>
+                <h3>MARIO ZAVALETA</h3>
+                <h3>ARGENTINA</h3>
+                <span class="price">$80</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 20.jpg" alt="" class="product-img">
+                <h2 class="product-title">RASPBERRY PI</h2>
+                <h3>CHARLES BABAGE</h3>
+                <h3>GRAN BRETAÑA</h3>
+                <span class="price">$235</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 21.jpg" alt="" class="product-img">
+                <h2 class="product-title">WINDOWS SERVER 2016</h2>
+                <h3>BILL GATES</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$730</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 22.jpg" alt="" class="product-img">
+                <h2 class="product-title">EL LIBRO BLANCO DEL HACKER</h2>
+                <h3>BOB STUD</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$680</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 24.jpg" alt="" class="product-img">
+                <h2 class="product-title">CODIGO LIMPIO</h2>
+                <h3>RICARDO SALINAS</h3>
+                <h3>MEXICO</h3>
+                <span class="price">$730</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 25.jpg" alt="" class="product-img">
+                <h2 class="product-title">C#</h2>
+                <h3>BILL GATES</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$890</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 26.jpg" alt="" class="product-img">
+                <h2 class="product-title">CSS EFICIENTE</h2>
+                <h3>MANUEL CONDE</h3>
+                <h3>COLOMBIA</h3>
+                <span class="price">$890</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 27.jpg" alt="" class="product-img">
+                <h2 class="product-title">DJANGO 2</h2>
+                <h3>RASMUNS LERDORF</h3>
+                <h3>HUNGRIA</h3>
+                <span class="price">$220</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 28.jpg" alt="" class="product-img">
+                <h2 class="product-title">REACT</h2>
+                <h3>RASMUS LERDORF</h3>
+                <h3>HUNGRIA</h3>
+                <span class="price">$890</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 29.jpg" alt="" class="product-img">
+                <h2 class="product-title">FUENTES DE ENERGIA</h2>
+                <h3>FELIPE CONDE</h3>
+                <h3>EL SALVADOR</h3>
+                <span class="price">$20</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 30.jpg" alt="" class="product-img">
+                <h2 class="product-title">HACKEAR AL HACKER</h2>
+                <h3>KEVIN MITNICK</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$370</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 31.jpg" alt="" class="product-img">
+                <h2 class="product-title">HACKING ETICO VOL 1</h2>
+                <h3>KEVIN MITNICK</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$890</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 32.jpg" alt="" class="product-img">
+                <h2 class="product-title">HACKING ETICO VOL 2</h2>
+                <h3>KEVIN MITNICK</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$895</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 33.jpg" alt="" class="product-img">
+                <h2 class="product-title">JAVA Y C++</h2>
+                <h3>YUKIBO KASHIMOTO</h3>
+                <h3>JAPON</h3>
+                <span class="price">$99</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 34.jpg" alt="" class="product-img">
+                <h2 class="product-title">JQUERY</h2>
+                <h3>GUIDO VAN ROSSUM</h3>
+                <h3>UCRANIA</h3>
+                <span class="price">$88</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 36.jpg" alt="" class="product-img">
+                <h2 class="product-title">HTML5 Y CSS3</h2>
+                <h3>ANDRA PIRLO</h3>
+                <h3>ITALIA</h3>
+                <span class="price">$575</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 37.jpg" alt="" class="product-img">
+                <h2 class="product-title">BASE DE DATOS</h2>
+                <h3>BILL GATES</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 38.jpg" alt="" class="product-img">
+                <h2 class="product-title">PHP 7</h2>
+                <h3>ROBERTO DOWN</h3>
+                <h3>POLONIA</h3>
+                <span class="price">$600</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 39.jpg" alt="" class="product-img">
+                <h2 class="product-title">PROGRAMACIÓN EN C</h2>
+                <h3>DARWIN CHABIS</h3>
+                <h3>SUECIA</h3>
+                <span class="price">$890</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 40.jpg" alt="" class="product-img">
+                <h2 class="product-title">COBOL</h2>
+                <h3>FABRICIO ROMANO</h3>
+                <h3>PAISES BAJOS</h3>
+                <span class="price">$60</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 41.jpg" alt="" class="product-img">
+                <h2 class="product-title">ORACLE</h2>
+                <h3>TONI KROS</h3>
+                <h3>ALEMANIA</h3>
+                <span class="price">$265</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="img/libro 43.jpg" alt="" class="product-img">
+                <h2 class="product-title">LINUX</h2>
+                <h3>LINUS TORVALDS</h3>
+                <h3>ESTADOS UNIDOS</h3>
+                <span class="price">$890</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+        <!-- !Aqui va a empezar el boton de salir -->
+
+
+    </section>
+    <!-- Link TO JS -->
+    <script src="js/tienda.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
